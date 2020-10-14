@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascii Converter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+      <h1>Ascii Converter</h1><br>
+      <input type="file">
+      
+      <div title="The width of a square of pixels that will be represented by one character. Smaller values make for higher resolution ASCII artworks, but increase loading time.">
+        <label>Pixel batch:</label>
+        <input type="number" value="10">
+      </div>
+
+      <label>Invert color scale:</label>
+      <input type="checkbox"><br>
+      
+      <button onclick="document.documentElement.classList.toggle('dark')">Toggle dark theme</button>
+      <button id="start">Start</button>
+    </nav>
+    
+    <img src="">
+    <canvas></canvas><br>
+
+    <pre id="output">
+
+    </pre>
+
+    <script src="app.js"></script>
+  </body>
+</html>
