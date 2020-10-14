@@ -1,0 +1,36 @@
+* {
+  font-family: sans-serif;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+nav {
+  padding: 10px;
+  background-color: #140042;
+  color: black;
+}
+nav div, nav label, nav h1 {
+  display: inline;
+  color: white;
+}
+img {
+  image-rendering: pixelated;
+}
+img, canvas {
+  display: none;
+}
+button, input {
+  border: 2px solid black;
+  background: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+#output {
+  white-space: pre;
+  font-family: monospace;
+}
